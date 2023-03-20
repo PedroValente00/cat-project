@@ -9,9 +9,11 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(express.json());
 
-const username = process.env.USERNAME;
-const password = process.env.PASSWORD;
-const uri = `mongodb+srv://${username}:${password}@cluster0.yncnmfs.mongodb.net/test`;
+// const username = process.env.USERNAME;
+// const password = process.env.PASSWORD;
+// const uri = `mongodb+srv://${username}:${password}@cluster0.yncnmfs.mongodb.net/test`;
+const uri = "mongodb+srv://guest:publicPassword@cluster0.pwlnmte.mongodb.net/test"
+
 const client = new MongoClient(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,

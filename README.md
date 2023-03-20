@@ -1,10 +1,8 @@
 # Hello there
 
-Welcome to my repository for this project.
-
 This is a simple full-stack application where you fetch random cat pictures (one at a time) from an external API.
 
-- Pretend that you are a logged in user and you enjoy one of the images.
+- Pretend that you are a logged-in user and you enjoy one of the images.
 - You can 'like' it and it will be added to your user-page, where you can see all the pictures you liked.
 - You can go to your user-page and click on a picture to 'unlike' it and it will be gone forever.
 

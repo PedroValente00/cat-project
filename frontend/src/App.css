@@ -10,6 +10,14 @@ img {
   max-height: 60vh;
 }
 
+.likes img {
+  border: 5px inset pink;
+  margin: 1em;
+  max-width: 40vw;
+  border-radius: 5%;
+}
+
+
 .userPage {
   padding: 1em;
   text-decoration: underline;
@@ -37,12 +45,6 @@ img {
   justify-content: center;
 }
 
-.likes img {
-  border-radius: 50%;
-  border: 5px inset pink;
-  margin: 1em;
-  max-width: 40vw;
-}
 
 .closeLikes {
   border: 1px solid black;
